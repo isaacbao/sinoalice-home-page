@@ -1,11 +1,11 @@
 {
-  "name": "element-starter",
-  "description": "A Vue.js project",
-  "author": "yi.shyang@ele.me",
+  "name": "sinoalice-homepage",
+  "description": "Gugugu",
+  "author": "Lou (dananad@126.com)",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --port 8086",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "dev": "webpack-dev-server --inline --hot --env.dev",
+    "build": "rimraf dist && webpack -p --progress --hide-modules"
   },
   "dependencies": {
     "element-ui": "^1.4.2",
