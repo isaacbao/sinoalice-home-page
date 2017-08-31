@@ -2,8 +2,7 @@ import '../theme/index.css'
 import Vue from 'vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
-import App1 from './App1.vue'
-import App from './App.vue'
+import fade from './fade.vue'
 
 import VueI18n from 'vue-i18n'
 import enLocale from 'element-ui/lib/locale/lang/en'
@@ -33,9 +32,9 @@ Vue.use(ElementUI, {
 
 new Vue({
   i18n,
-  el: '#app',
-  render: h => h(App)
-}).$mount('#app')
+  el: '#fade',
+  render: h => h(fade)
+}).$mount('#fade')
 
 // new Vue({
 //   el: '#app',
